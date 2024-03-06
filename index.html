@@ -60,11 +60,11 @@
                 </button>
               </div>
         
-        </main>
+       
         
     </div>
 
-    <main>
+   
         <section class="w-50 mx-auto text-center pt-5"> 
           <h1 class="p-3 fs-2 border-top border-3">Servicios</h1> 
           <p class="p-3 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, facere. Explicabo eligendi itaque quaerat assumenda magni at inventore, alias laboriosam iure, culpa eum tempore quis, illum quidem numquam libero aliquid.</p>
@@ -100,9 +100,8 @@
             </div>
           </div>
         </section>
-    </main>
-
-    <section class="bg-light">
+ 
+    <section class="bg-light" id="seccion-clientes">
       <h2 class="p-3 fs-2 text-center">Clientes</h2>
       <div class="container">
         <div class="row justify-content-around py-4">
@@ -136,79 +135,50 @@
       </div>
     </section>
   
-<section id="seccion-contacto" class="border-bottom border-secundary border-2">
-<div class="bg-contactos">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L80,101.3C160,139,320,213,480,208C640,203,800,117,960,106.7C1120,96,1280,160,1360,192L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #007acc;"></path></svg>
-</div>
+  <section id="seccion-contacto" class="border-bottom border-secundary border-2">
+    <div id="bg-contacto">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L80,101.3C160,139,320,213,480,208C640,203,800,117,960,106.7C1120,96,1280,160,1360,192L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" data-darkreader-inline-fill="" style="--darkreader-inline-fill: #007acc;"></path></svg>
+    </div>
+
+    <div class="container" id="contenedor-formulario">
+      <div id="titulo-formulario" class="text-center mb-4">
+        <div><img src="/img/contacto.png" alt="contacto" class="img-fluid ps-5"></div>
+        <h2>Contacto</h2>
+        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsam tempore excepturi natus autem enim quaerat odio earum modi eum. Officia deleniti ipsum consectetur corrupti explicabo. Consectetur iste officia reiciendis?</p>
+      </div>
+
+      <!--formulario-->
+      <form   method="POST" data-netlify="true" action="#"> 
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Mail</label>
+          <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <button type="button" class="btn-primary w-100 fs-5">Enviar</button>
+        </div>
+
+      </form>
+        <!--formulario-->
+    </div>
 
 </section>
 
-<div class="container" id="contenedor-formulario">
-  <div id="titulo-formulario" class="text-center mb-4">
-    <div><img src="/img/contacto.png" alt="contacto" class="img-fluid"></div>
-    <h2>Contacto</h2>
-    <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsam tempore excepturi natus autem enim quaerat odio earum modi eum. Officia deleniti ipsum consectetur corrupti explicabo. Consectetur iste officia reiciendis?</p>
-  </div>
-
-</div>
-
-<form action="">
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-    <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Mail</label>
-    <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com" required>
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-  <div class="mb-3">
-    <button type="button" class="btn-primary w-100 fs-5">Enviar</button>
-  </div>
-</form>
-
-
-    <!-- <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <section class="formulario-contacto">
-                    <h2 class="text-center mb-4">Contacto</h2>
-                            <form action="procesar_formulario.js" method="post" class="needs-validation" novalidate>
-                                <div class="form-group">
-                                    <section id="formulario"></section>
-                                    <label for="nombre">Nombre y Apellido:</label>
-                                    <input type="text" class="form-control" id="nombre" name="nombre" required>
-                                    <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
-                                </div>
-                        
-                                <div class="form-group">
-                                    <label for="email">Mail:</label>
-                                    <input type="email" class="form-control" id="email" name="email" required>
-                                    <div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
-                                </div>
-                        
-                                <div class="form-group">
-                                    <label for="mensaje">Mensaje:</label>
-                                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-                                    <div class="invalid-feedback">Por favor, ingresa tu mensaje.</div>
-                                </div>
-                        
-                                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-                            </form>
-                        </section>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="contacto-img"">
-                        <img src="/img/contacto.png" class="img-fluid" alt="Imagen de fondo">
-                    </div>
-                    </div> -->
 <!--boostrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

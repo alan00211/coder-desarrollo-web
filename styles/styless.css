@@ -1,14 +1,4 @@
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center; 
-}
+/* nav bar -----------------*/
 
 nav {
     display: flex;
@@ -18,16 +8,9 @@ nav {
     padding: 10px;
 }
 
-.logo img {
-    max-height: 40px;
-}
-
-.navbar ul {
-    list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* logo nav bar */
+.nav-logo {     
+    width: 70px;
 }
 
 .navbar li {
@@ -42,74 +25,29 @@ nav {
 }
 
 .navbar a:hover {
-    color: #ffcc00; /* Color al pasar el ratón */ 
+    color: #297db6; /* Color al pasar el ratón */ 
 }
 
-main {
-    padding: 20px;
-    
-}
 
-.formulario-contacto {
-    padding: 20px;
-    background-color: #eee;
-    margin-top: 20px;
-    border-radius: 10px;
-}
+/* nav bar -----------------*/
+
+
+
+/* carousel -----------------*/
+
 .carousel-item img {
     object-fit: cover;
     height: 600px; 
     width: 100%;  
 }
 
-.contacto-img 
-{
-    padding: 20px;
-    border-radius: 20%;
-}
-    
-.logo-container 
-{
-        width: 20px;
-        height: 20px; 
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-}
-    
-    
-.logo-container:hover .cliente-logo {
-    transform: scale(1.1); /* Escala el logo al pasar el mouse */
-}
-
-    /* Personaliza el ancho del carrusel */
+    /* ancho del carrusel */
 #logoCarousel 
 {   
     max-height: 100px;
     margin: 0 auto; /* Centra el carrusel horizontalmente */
 }
 
-
-.iconos-container 
-{
-    width: 500px; 
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-  
-.icono {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-}
-
-
-
-/* logo nav bar */
-.nav-logo {     
-    width: 70px;
-}
 
 /* carrucel tamaño imagen */
 
@@ -118,6 +56,10 @@ main {
     max-height: 39rem;
 }
 
+/* carousel -----------------*/
+
+
+/* efecto de iconos -----------------*/
 
 .icono-wrap {
     transition: transform 0.3s ease-in-out;
@@ -127,27 +69,38 @@ main {
     transform: scale(1.1);
   }
 
-  .bg-contacto {
-    position: relative;
-    top: -110px;
-  }
+/* efecto de iconos -----------------*/ 
 
-  .bg-contacto {
+
+
+
+/* Formulario contacto -----------------*/ 
+
+  #bg-contacto {
+   position: relative;
+    top: -130;
+}
+
+ #seccion-contacto {
     background-color: #1b2a4e;
     position: relative;
     min-height: 500px;
-  }
+}
 
-  .contenedor-formulario {
+
+#contenedor-formulario {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    max-width: 500px;
-  }
+    background: #3f3f3f;
+}
 
-  .titulo-formulario
-  {
-  color: #3f3f3f;
-  }
+#titulo-formulario
+{
+color: #3f3f3f;
+}
+/* Formulario contacto -----------------*/ 
+
+
