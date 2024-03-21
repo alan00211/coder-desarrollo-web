@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /js/    # Evita index de la carpeta "js"
+Disallow: /sass/  # Evita index de la carpeta "sass"

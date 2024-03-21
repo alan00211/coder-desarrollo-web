@@ -1,0 +1,122 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css');
+// Variables
+$color-bg-nav: #444;
+$color-text-nav: #fff;
+$color-text-hover: #297db6;
+$color-bg-contacto: #1b2a4e;
+$color-bg-formulario: #3f3f3f;
+
+// Estilos para el navbar
+// Estilos personalizados
+.navbar {
+    .navbar-brand {
+      .nav-logo {
+        max-width: 50px; // Reducir el tamaño máximo del logo
+        height: auto; // Altura automática para mantener la proporción
+      }
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        color: #fff;
+        font-weight: bold;
+  
+        &:hover {
+          color: #297db6;
+        }
+      }
+    }
+  }
+
+// Estilos para el carousel
+.carousel-item img {
+  object-fit: cover;
+  height: 600px; 
+  width: 100%;  
+}
+
+#logoCarousel {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  max-height: 39rem;
+}
+
+// Efecto de iconos al hacer hover
+.icono-wrap {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+// Estilos para el formulario de contacto
+#bg-contacto {
+  position: relative;
+  top: -130;
+}
+
+#seccion-contacto {
+  background-color: $color-bg-contacto;
+  position: relative;
+  min-height: 500px;
+
+  #contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background: $color-bg-formulario;
+
+    #titulo-formulario {
+      color: $color-bg-formulario;
+    }
+  }
+}
+
+
+// Estilos para el carousel
+.carousel-item img {
+  object-fit: cover;
+  height: 600px; 
+  width: 100%;  
+}
+
+#logoCarousel {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  max-height: 39rem;
+}
+
+
+// Estilos para el formulario de contacto
+#bg-contacto {
+  position: relative;
+  top: -130;
+}
+
+#seccion-contacto {
+  background-color: $color-bg-contacto;
+  position: relative;
+  min-height: 500px;
+
+  #contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background: $color-bg-formulario;
+
+    #titulo-formulario {
+      color: $color-bg-formulario;
+    }
+  }
+}
