@@ -53,31 +53,6 @@ $color-bg-formulario: #3f3f3f;
   }
 }
 
-// Estilos para el formulario de contacto
-#bg-contacto {
-  position: relative;
-  top: -130;
-}
-
-#seccion-contacto {
-  background-color: $color-bg-contacto;
-  position: relative;
-  min-height: 500px;
-
-  #contenedor-formulario {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    background: $color-bg-formulario;
-
-    #titulo-formulario {
-      color: $color-bg-formulario;
-    }
-  }
-}
-
 
 // Estilos para el carousel
 .carousel-item img {
@@ -96,27 +71,15 @@ $color-bg-formulario: #3f3f3f;
 }
 
 
-// Estilos para el formulario de contacto
-#bg-contacto {
-  position: relative;
-  top: -130;
+
+
+.banner 
+{
+ text-align: center;
+ text-decoration: #1b2a4e;
 }
-
-#seccion-contacto {
-  background-color: $color-bg-contacto;
-  position: relative;
-  min-height: 500px;
-
-  #contenedor-formulario {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 5px;
-    background: $color-bg-formulario;
-
-    #titulo-formulario {
-      color: $color-bg-formulario;
-    }
-  }
+.banner 
+{
+ text-align: center;
+ text-decoration: #1b2a4e;
 }
