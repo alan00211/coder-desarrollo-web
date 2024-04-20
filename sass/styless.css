@@ -12,7 +12,8 @@
 }
 
 .carousel-item img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 600px;
   width: 100%;
 }
@@ -34,7 +35,8 @@
 }
 
 .carousel-item img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 600px;
   width: 100%;
 }
@@ -50,12 +52,6 @@
 
 .banner {
   text-align: center;
-  text-decoration: #1b2a4e;
-}
-
-.banner {
-  text-align: center;
-  text-decoration: #1b2a4e;
-}
-
-/*# sourceMappingURL=styless.css.map */
+  -webkit-text-decoration: #1b2a4e;
+          text-decoration: #1b2a4e;
+}/*# sourceMappingURL=styless.css.map */
