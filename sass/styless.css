@@ -54,4 +54,93 @@
   text-align: center;
   -webkit-text-decoration: #1b2a4e;
           text-decoration: #1b2a4e;
+}
+
+.imagen-hover {
+  transition: transform 0.3s ease-in-out;
+}
+.imagen-hover:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.trabaja-con-nosotros {
+  animation: fadeInAnimation 1s ease-in-out;
+}
+
+.card-title {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+#seccion-servicios {
+  padding: 80px 0;
+}
+#seccion-servicios .servicio-wrap {
+  transition: transform 0.3s ease;
+}
+#seccion-servicios .servicio-wrap:hover {
+  transform: translateY(-10px);
+}
+#seccion-servicios .servicio-wrap .servicio-titulo {
+  color: #333;
+  font-weight: bold;
+}
+#seccion-servicios .servicio-wrap .servicio-desc {
+  color: #666;
+}
+#seccion-servicios .servicio-wrap .servicio-btn {
+  margin-top: 20px;
 }/*# sourceMappingURL=styless.css.map */
