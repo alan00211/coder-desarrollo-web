@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Información sobre las últimas novedades de ServiCloud">
-    <meta name="keywords" content="HOSTING, CLOUD, SERVICIOS, NOVEDADES">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Enlace a AOS para animaciones -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Enlace a tu archivo de estilos personalizado -->
-    <link rel="stylesheet" href="/sass/styless.css">
-    <title>Novedades - ServiCloud</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Información sobre las últimas novedades de ServiCloud">
+  <meta name="keywords" content="HOSTING, CLOUD, SERVICIOS, NOVEDADES">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Enlace a AOS para animaciones -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Enlace a tu archivo de estilos personalizado -->
+  <link rel="stylesheet" href="/sass/styless.css">
+  <title>Novedades - ServiCloud</title>
 </head>
 <body>
   <header>
@@ -28,68 +28,80 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
-            <a class="nav-link" href="/secciones/nosostros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/secciones/novedades.html">Novedades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/secciones/servicios.html">Servicios</a>
+            <li class="nav-item">
+              <a class="nav-link" href="nosostros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trabaja_con_nosotros.html">Trabaja con Nosotros</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+
   <section class="container-fluid bg-light" id="seccion-servicios">
     <h2 class="p-3 fs-2 text-center">Nuestros Servicios</h2>
     <div class="row justify-content-around py-4">
-        <!-- Servicio 1 -->
-        <div data-aos="fade-right" class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
-            <!-- Contenido del servicio 1 -->
+      <!-- Servicio 1 - Nube Privada con IA -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
+        <img class="img-fluid rounded mb-3" src="/img/servicio_2.jpg" alt="Servicio 2" width="200" height="160">
+        <div class="text-center">
+          <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Nube Privada con IA</h3>
+          <p class="px-4 servicio-desc">Benefíciate de una nube privada potenciada por IA para tus aplicaciones y datos críticos.</p>
+          <a href="#" class="btn btn-outline-primary servicio-btn" onclick="toggleText(this)">Ver Más</a>
+          <div class="servicio-texto-extendido" style="display: none;">
+            <p>La Nube Privada con Inteligencia Artificial de ServiCloud te ofrece una solución avanzada para alojar tus aplicaciones y datos críticos. Con tecnologías de vanguardia en IA, garantizamos un entorno seguro, escalable y eficiente para tus necesidades empresariales. Nuestra infraestructura optimizada y personalizable te permite aprovechar al máximo las capacidades de la IA, mejorando la gestión de datos, la toma de decisiones y la productividad de tu empresa.</p>
+          </div>
         </div>
+      </div>
 
-        <!-- Servicio 2 -->
-        <div data-aos="fade-up" class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
-            <img class="img-fluid rounded mb-3" src="/img/servicio_2.jpg" alt="Servicio 2" width="200" height="160">
-            <div class="text-center">
-                <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Nube Privada con IA</h3>
-                <p class="px-4 servicio-desc">Benefíciate de una nube privada potenciada por IA para tus aplicaciones y datos críticos.</p>
-                <a href="#" class="btn btn-outline-primary servicio-btn">Ver Más</a>
-            </div>
+      <!-- Servicio 2 - Copias de Seguridad -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
+        <img class="img-fluid rounded mb-3" src="/img/servicio_3.jpg" alt="Servicio 3" width="200" height="160">
+        <div class="text-center">
+          <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Copias de Seguridad</h3>
+          <p class="px-4 servicio-desc">Protege tus datos con nuestras soluciones de copias de seguridad automatizadas.</p>
+          <a href="#" class="btn btn-outline-primary servicio-btn" onclick="toggleText(this)">Ver Más</a>
+          <div class="servicio-texto-extendido" style="display: none;">
+            <p>Las soluciones de Copias de Seguridad automatizadas de ServiCloud son fundamentales para proteger tus datos críticos ante cualquier eventualidad. Utilizando tecnologías de respaldo robustas y confiables, garantizamos la integridad y disponibilidad de tu información en todo momento. Nuestros servicios de copias de seguridad te ofrecen una gestión centralizada, programación flexible y recuperación rápida de datos, asegurando la continuidad de tu negocio ante cualquier incidente.</p>
+          </div>
         </div>
+      </div>
 
-        <!-- Servicio 3 -->
-        <div data-aos="fade-left" class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
-            <img class="img-fluid rounded mb-3" src="/img/servicio_3.jpg" alt="Servicio 3" width="200" height="160">
-            <div class="text-center">
-                <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Copias de Seguridad</h3>
-                <p class="px-4 servicio-desc">Protege tus datos con nuestras soluciones de copias de seguridad automatizadas.</p>
-                <a href="#" class="btn btn-outline-primary servicio-btn">Ver Más</a>
-            </div>
+      <!-- Servicio 3 - Servicio de Correo Electrónico -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
+        <img class="img-fluid rounded mb-3" src="/img/servicio_1.jpg" alt="Servicio 1" width="200" height="160">
+        <div class="text-center">
+          <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Servicio de Correo Electrónico</h3>
+          <p class="px-4 servicio-desc">Obtén un servicio de correo electrónico seguro y confiable para tu empresa.</p>
+          <a href="#" class="btn btn-outline-primary servicio-btn" onclick="toggleText(this)">Ver Más</a>
+          <div class="servicio-texto-extendido" style="display: none;">
+            <p>El Servicio de Correo Electrónico de ServiCloud te proporciona una plataforma segura y confiable para la comunicación empresarial. Con nuestras soluciones de correo electrónico basadas en la nube, obtienes acceso seguro a tus correos, contactos y calendarios desde cualquier lugar y dispositivo. Nuestras características avanzadas de seguridad, filtrado de spam y herramientas de colaboración mejoran la eficiencia y la productividad de tu equipo, garantizando una comunicación fluida y segura.</p>
+          </div>
         </div>
+      </div>
 
-        <!-- Servicio 4 -->
-        <div data-aos="fade-right" class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
-            <img class="img-fluid rounded mb-3" src="/img/servicio_1.jpg" alt="Servicio 4" width="200" height="160">
-            <div class="text-center">
-                <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Servicio de Correo Electrónico</h3>
-                <p class="px-4 servicio-desc">Obtén un servicio de correo electrónico seguro y confiable para tu empresa.</p>
-                <a href="#" class="btn btn-outline-primary servicio-btn">Ver Más</a>
-            </div>
+      <!-- Servicio 4 - Optimización de Aplicaciones -->
+      <div class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
+        <img class="img-fluid rounded mb-3" src="/img/servicio_4.jpg" alt="Servicio 4" width="200" height="160">
+        <div class="text-center">
+          <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Optimización de Aplicaciones</h3>
+          <p class="px-4 servicio-desc">Mejora el rendimiento y la eficiencia de tus aplicaciones con nuestra optimización especializada.</p>
+          <a href="#" class="btn btn-outline-primary servicio-btn" onclick="toggleText(this)">Ver Más</a>
+          <div class="servicio-texto-extendido" style="display: none;">
+            <p>La Optimización de Aplicaciones de ServiCloud te ayuda a maximizar el rendimiento y la eficiencia de tus aplicaciones empresariales. Nuestro equipo de expertos en optimización trabaja para identificar cuellos de botella, mejorar la escalabilidad y optimizar el código de tus aplicaciones, garantizando una experiencia de usuario superior y reduciendo los costos operativos. Con enfoques innovadores y herramientas de análisis avanzadas, optimizamos tus aplicaciones para adaptarse a las demandas cambiantes del mercado y mejorar la competitividad de tu negocio.</p>
+          </div>
         </div>
-
-        <!-- Servicio 5 -->
-        <div data-aos="fade-up" class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center my-3 servicio-wrap">
-            <img class="img-fluid rounded mb-3" src="/img/servicio_5.jpg" alt="Servicio 5" width="200" height="160">
-            <div class="text-center">
-                <h3 class="fs-5 mt-2 mb-3 px-4 servicio-titulo">Optimización de Aplicaciones</h3>
-                <p class="px-4 servicio-desc">Mejora el rendimiento y la eficiencia de tus aplicaciones con nuestra optimización especializada.</p>
-                <a href="#" class="btn btn-outline-primary servicio-btn">Ver Más</a>
-            </div>
-        </div>
+      </div>
     </div>
-</section>
+  </section>
 
   <!--boostrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -97,5 +109,6 @@
   <script>
     AOS.init();
   </script>
+  <script src="../js/main.js"></script>
 </body>
 </html>
