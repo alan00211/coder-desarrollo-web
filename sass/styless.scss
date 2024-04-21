@@ -7,7 +7,6 @@ $color-bg-contacto: #1b2a4e;
 $color-bg-formulario: #3f3f3f;
 
 // Estilos para el navbar
-// Estilos personalizados
 .navbar {
     .navbar-brand {
       .nav-logo {
@@ -15,7 +14,6 @@ $color-bg-formulario: #3f3f3f;
         height: auto; // Altura automática para mantener la proporción
       }
     }
-  
     .navbar-nav {
       .nav-link {
         color: #fff;
@@ -53,23 +51,6 @@ $color-bg-formulario: #3f3f3f;
   }
 }
 
-
-// Estilos para el carousel
-.carousel-item img {
-  object-fit: cover;
-  height: 600px; 
-  width: 100%;  
-}
-
-#logoCarousel {
-  max-height: 100px;
-  margin: 0 auto;
-}
-
-.carousel-item {
-  max-height: 39rem;
-}
-
 .banner 
 {
  text-align: center;
@@ -85,6 +66,7 @@ $color-bg-formulario: #3f3f3f;
 }
 
 
+
 // Estilo para la imagen dentro de las tarjetas
 .card-img-top {
   border-radius: 10px; // Borde redondeado para la imagen
@@ -94,13 +76,13 @@ $color-bg-formulario: #3f3f3f;
 // Estilo para el botón de las tarjetas
 .btn-primary {
   background-color: #007bff; // Color de fondo del botón
-  border-color: #007bff; // Color del borde del botón
+  border-color: #007bff; 
   transition: background-color 0.3s ease-in-out; // Transición al pasar el mouse
 }
 
 // Efecto de escala al pasar el mouse sobre la imagen de las tarjetas
 .card-img-top:hover {
-  transform: scale(1.1); // Aumenta el tamaño al pasar el mouse
+  transform: scale(1.04); // Aumenta el tamaño al pasar el mouse
 }
 
 // Efecto de color al pasar el mouse sobre el botón de las tarjetas
@@ -109,15 +91,6 @@ $color-bg-formulario: #3f3f3f;
   border-color: #0056b3; // Cambia el color del borde al pasar el mouse
 }
 
-// Animación de entrada al cargar la página
-@keyframes fadeInAnimation {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
 
 // Estilo para la sección "Trabaja con Nosotros"
 .trabaja-con-nosotros {
@@ -182,3 +155,22 @@ $color-bg-formulario: #3f3f3f;
       }
   }
 }
+// Estilos personalizados para los títulos
+h1 {
+  font-size: 2rem; // Tamaño de fuente personalizado
+  color: #333; // Color de texto
+  margin-bottom: 1rem; // Margen inferior
+  font-weight: bold; // Negrita
+}
+h2 {
+  font-size: 1.5rem; // Tamaño de fuente personalizado
+  color: #333; // Color de texto
+  margin-bottom: 0.5rem; // Margen inferior
+}
+
+h3 {
+  font-size: 1.25rem; // Tamaño de fuente personalizado
+  color: #333; // Color de texto
+  margin-bottom: 0.25rem; // Margen inferior
+}
+

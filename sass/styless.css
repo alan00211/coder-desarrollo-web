@@ -34,22 +34,6 @@
   transform: scale(1.1);
 }
 
-.carousel-item img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 600px;
-  width: 100%;
-}
-
-#logoCarousel {
-  max-height: 100px;
-  margin: 0 auto;
-}
-
-.carousel-item {
-  max-height: 39rem;
-}
-
 .banner {
   text-align: center;
   -webkit-text-decoration: #1b2a4e;
@@ -75,7 +59,7 @@
 }
 
 .card-img-top:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 .btn-primary:hover {
@@ -83,14 +67,6 @@
   border-color: #0056b3;
 }
 
-@keyframes fadeInAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 .trabaja-con-nosotros {
   animation: fadeInAnimation 1s ease-in-out;
 }
@@ -143,4 +119,23 @@
 }
 #seccion-servicios .servicio-wrap .servicio-btn {
   margin-top: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 0.25rem;
 }/*# sourceMappingURL=styless.css.map */
